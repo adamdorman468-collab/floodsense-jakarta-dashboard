@@ -1,4 +1,5 @@
 # modules/map_view.py
+import pandas as pd
 import folium
 from streamlit_folium import st_folium
 from folium.plugins import MarkerCluster
@@ -33,3 +34,4 @@ def render_flood_map(df, center=[-6.2, 106.816666], zoom_start=11):
     if added == 0:
         st.info("Tidak ditemukan koordinat valid pada data banjir. Menampilkan peta dasar.")
     st_folium(m, width="100%", height=550)
+
