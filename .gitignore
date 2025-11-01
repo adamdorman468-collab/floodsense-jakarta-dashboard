@@ -1,24 +1,10 @@
-# Python cache files
 __pycache__/
 *.pyc
-*.pyo
-*.pyd
-.Python
-
-# Virtual environments
 .env
 .venv
-env/
-venv/
-ENV/
-
-# Streamlit secrets & config (private)
+.envrc
+.venv/
+.env/
 .streamlit/secrets.toml
-
-# System files
 .DS_Store
 Thumbs.db
-
-# Cache & notebook checkpoints
-.cache/
-.ipynb_checkpoints/
